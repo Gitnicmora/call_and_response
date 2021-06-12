@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.form_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form_content form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px black solid;
+    height: 350px;
+    width: 350px;
+    flex-direction: column;
+}
+.banner{
+    margin: 20px;
+}
+
+a .container{
+    color: rgb(62, 70, 70);
+    
+}
+
+.posts{
+    border: 3px black solid;
+    height: auto;
+    padding: 5px;
+}
+
+img{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.user{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-right: 10px;
+}
